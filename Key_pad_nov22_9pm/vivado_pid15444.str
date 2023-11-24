@@ -1,0 +1,1801 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 15444
+License: Customer
+
+Current time: 	Thu Nov 23 19:17:21 PST 2023
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 252 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	T00696672
+User home directory: C:/Users/T00696672
+User working directory: F:/year3/Vivadolabs/Key_pad_nov22_9pm
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/T00696672/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/T00696672/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/T00696672/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	F:/year3/Vivadolabs/Key_pad_nov22_9pm/vivado.log
+Vivado journal file location: 	F:/year3/Vivadolabs/Key_pad_nov22_9pm/vivado.jou
+Engine tmp dir: 	F:/year3/Vivadolabs/Key_pad_nov22_9pm/.Xil/Vivado-15444-om1792-01
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: C:\Android-AVDs
+ANDROID_SDK_ROOT: C:\Android-SDK
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 633 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: F:\year3\Vivadolabs\Key_pad_nov22_9pm\Key_pad_nov20.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 634 MB. GUI used memory: 51 MB. Current time: 11/23/23, 7:17:23 PM PST
+// Tcl Message: open_project F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+66196kb) [00:00:13]
+// [Engine Memory]: 666 MB (+546425kb) [00:00:13]
+// [GUI Memory]: 82 MB (+13820kb) [00:00:13]
+// [GUI Memory]: 106 MB (+21368kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  4434 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1532 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 721 MB (+23663kb) [00:00:17]
+// Project name: Key_pad_nov20; location: F:/year3/Vivadolabs/Key_pad_nov22_9pm; part: xc7a35tcpg236-1
+// [GUI Memory]: 114 MB (+1938kb) [00:00:17]
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 732.758 ; gain = 106.867 
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 131 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_divisor(Behavioral) (clock_divisor.vhd)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_divisor(Behavioral) (clock_divisor.vhd)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 753 MB. GUI used memory: 56 MB. Current time: 11/23/23, 7:19:48 PM PST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), C0 : decoder_keypad(Behavioral) (decoder_keypad.vhd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), C0 : decoder_keypad(Behavioral) (decoder_keypad.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), C0 : decoder_keypad(Behavioral) (decoder_keypad.vhd), C : bclk(main) (bclk.vhd)]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), C0 : decoder_keypad(Behavioral) (decoder_keypad.vhd), C : bclk(main) (bclk.vhd)]", 3, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), C0 : decoder_keypad(Behavioral) (decoder_keypad.vhd), P : pwm(main) (pwm.vhd)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), C0 : decoder_keypad(Behavioral) (decoder_keypad.vhd), P : pwm(main) (pwm.vhd)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), uut2 : segment_driver(Behavioral) (segment_driver.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), uut2 : segment_driver(Behavioral) (segment_driver.vhd)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), uut2 : segment_driver(Behavioral) (segment_driver.vhd), BDS1 : BCD_Segment_decoder(Behavioral) (BCD_Segment_decoder.vhd)]", 7, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tod_design_nov20(Behavioral) (Tod_design_nov20.vhd), uut2 : segment_driver(Behavioral) (segment_driver.vhd), BDS1 : BCD_Segment_decoder(Behavioral) (BCD_Segment_decoder.vhd)]", 7, false, false, false, false, false, true); // B (F, cl) - Double Click
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 442ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 753 MB. GUI used memory: 59 MB. Current time: 11/23/23, 7:49:48 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 753 MB. GUI used memory: 53 MB. Current time: 11/23/23, 8:19:49 PM PST
+// Elapsed time: 3839 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 6); // k (j, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("segment_driver.vhd", 124, 254); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 124, 254, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 1); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 879, 244); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 879, 244, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 797, 195); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 797, 195, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 3); // k (j, cl)
+selectCodeEditor("decoder_keypad.vhd", 98, 176); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 98, 176, false, false, false, false, true); // cl (w, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 753 MB. GUI used memory: 53 MB. Current time: 11/23/23, 8:49:49 PM PST
+// Elapsed time: 2442 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 1); // k (j, cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// 'cx' command handler elapsed time: 6 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 -prev_step  
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:06:30 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 60 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1013 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4234 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A5BA 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,644 MB. GUI used memory: 60 MB. Current time: 11/23/23, 9:07:39 PM PST
+// by (cl):  Auto Connect : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 1,646 MB (+931431kb) [01:50:27]
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 10 seconds
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clock_divisor.vhd", 1); // k (j, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// HMemoryUtils.trashcanNow. Engine heap size: 1,674 MB. GUI used memory: 60 MB. Current time: 11/23/23, 9:08:59 PM PST
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 131, 233); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 131, 233, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bclk.vhd", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("decoder_keypad.vhd", 294, 194); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("decoder_keypad.vhd", 444, 258); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 69, 216); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 69, 216, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 217, 211); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 280, 248); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 469, 324); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 66, 264); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 66, 264, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1029, 218); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 103, 230); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 103, 230, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1081, 214); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectCodeEditor("decoder_keypad.vhd", 93, 206); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 75, 215); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 75, 215, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 284, 332); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 307, 340); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (Q, A): TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cx' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:11:35 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 21:11:35 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 212 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: close_hw 
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1245 ms.
+dismissDialog("Close Hardware Manager"); // by (cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 10); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, KEY_CONST_NOV20.xdc]", 12, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, KEY_CONST_NOV20.xdc]", 12, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "KEY_CONST_NOV20.xdc", 6); // k (j, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,694 MB. GUI used memory: 62 MB. Current time: 11/23/23, 9:15:54 PM PST
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 1); // k (j, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 126, 232); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 126, 232, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("Tod_design_nov20.vhd", 2, 215); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 127, 232); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 127, 232, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 1014, 313); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1019, 330); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 1110, 313); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1110, 313, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("Tod_design_nov20.vhd", 1038, 316); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1038, 316, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 2); // k (j, cl)
+selectCodeEditor("decoder_keypad.vhd", 74, 178); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 74, 178, false, false, false, false, true); // cl (w, cl) - Double Click
+// [GUI Memory]: 120 MB (+132kb) [02:00:18]
+// Elapsed time: 27 seconds
+selectCodeEditor("decoder_keypad.vhd", 387, 191); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("decoder_keypad.vhd", 301, 286); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 88, 213); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 88, 213, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 49, 277); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 94, 275); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 297, 322); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 161, 231); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 85, 260); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 217, 61); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 244, 92); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("decoder_keypad.vhd", 88, 176); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 88, 176, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 66, 353); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 66, 353, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 179, 348); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cx' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (KEY_CONST_NOV20.xdc) elapsed time: 0.2s
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:18:57 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 21:18:57 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 139 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A5BA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// by (cl):  Auto Connect : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [GUI Memory]: 126 MB (+996kb) [02:04:08]
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("decoder_keypad.vhd", 57, 200); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("decoder_keypad.vhd", 81, 169); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 120, 396); // cl (w, cl)
+// Elapsed time: 60 seconds
+selectCodeEditor("decoder_keypad.vhd", 79, 403); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 79, 403, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("decoder_keypad.vhd", 117, 394); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("decoder_keypad.vhd", 79, 156); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("decoder_keypad.vhd", 185, 249); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 265, 332); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:24:05 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 36 seconds
+selectCodeEditor("decoder_keypad.vhd", 48, 350); // cl (w, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aI (cl): Feedback Request: addNotify
+// Elapsed time: 18 seconds
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a (aI)
+dismissDialog("Feedback Request"); // aI (cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("decoder_keypad.vhd", 139, 402); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 191, 286); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,714 MB. GUI used memory: 68 MB. Current time: 11/23/23, 9:25:44 PM PST
+// WARNING: HTimer (StateMonitor Timer) is taking 1788ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1788 ms.
+// Elapsed time: 366 seconds
+selectCodeEditor("decoder_keypad.vhd", 91, 90); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 91, 90, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 259, 311); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 219, 313); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 150, 179); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 295, 180); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 121, 209); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 121, 209, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("decoder_keypad.vhd", 91, 125); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 74, 125); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 42, 91); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 169, 149); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 10, 141); // cl (w, cl)
+// Elapsed time: 22 seconds
+selectCodeEditor("decoder_keypad.vhd", 106, 230); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 106, 230, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("decoder_keypad.vhd", 138, 331); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 233, 265); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 162, 384); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 148, 380); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 236, 266); // cl (w, cl)
+// Elapsed time: 107 seconds
+selectCodeEditor("decoder_keypad.vhd", 253, 277); // cl (w, cl)
+// Elapsed time: 47 seconds
+selectCodeEditor("decoder_keypad.vhd", 72, 208); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 72, 208, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("decoder_keypad.vhd", 218, 197); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 254, 193); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 199, 198); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 73, 216); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("decoder_keypad.vhd", 233, 346); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 123, 352); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 146, 145); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 197, 158); // cl (w, cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:36:55 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 21:36:55 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 133 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 8 seconds
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("decoder_keypad.vhd", 211, 82); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("decoder_keypad.vhd", 238, 130); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 81, 129); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("decoder_keypad.vhd", 276, 351); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("decoder_keypad.vhd", 133, 354); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 328, 443); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 264, 383); // cl (w, cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// 'cx' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:40:53 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 66 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1022 ms.
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 56 seconds
+selectCodeEditor("decoder_keypad.vhd", 246, 282); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 120, 307); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 333, 354); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 304, 321); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 362, 375); // cl (w, cl)
+// Elapsed time: 21 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:43:45 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 21:43:45 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("decoder_keypad.vhd", 263, 333); // cl (w, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 117 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("decoder_keypad.vhd", 212, 333); // cl (w, cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("decoder_keypad.vhd", 149, 280); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 484, 434); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 21:47:01 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 21:47:01 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 153 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 47 seconds
+selectCodeEditor("decoder_keypad.vhd", 66, 235); // cl (w, cl)
+// Elapsed time: 65 seconds
+selectCodeEditor("decoder_keypad.vhd", 267, 350); // cl (w, cl)
+// Elapsed time: 130 seconds
+selectCodeEditor("decoder_keypad.vhd", 433, 368); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+// Elapsed time: 55 seconds
+selectCodeEditor("decoder_keypad.vhd", 420, 203); // cl (w, cl)
+// Elapsed time: 22 seconds
+selectCodeEditor("decoder_keypad.vhd", 383, 175); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("decoder_keypad.vhd", 576, 160); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,716 MB. GUI used memory: 68 MB. Current time: 11/23/23, 9:55:45 PM PST
+// Elapsed time: 60 seconds
+selectCodeEditor("decoder_keypad.vhd", 355, 159); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("decoder_keypad.vhd", 619, 232); // cl (w, cl)
+// Elapsed time: 49 seconds
+selectCodeEditor("decoder_keypad.vhd", 81, 338); // cl (w, cl)
+// Elapsed time: 22 seconds
+selectCodeEditor("decoder_keypad.vhd", 78, 433); // cl (w, cl)
+// Elapsed time: 116 seconds
+selectCodeEditor("decoder_keypad.vhd", 101, 230); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 101, 230, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("decoder_keypad.vhd", 226, 92); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 116, 234); // cl (w, cl)
+typeControlKey((HResource) null, "decoder_keypad.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 365, 229); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("decoder_keypad.vhd", 120, 463); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 255, 408); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:00:16 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:00:16 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 134 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("decoder_keypad.vhd", 188, 379); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 159, 320); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 319, 198); // cl (w, cl)
+selectCodeEditor("decoder_keypad.vhd", 232, 215); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1124, 323); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 201, 316); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1170, 296); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1116, 298); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cx' command handler elapsed time: 8 seconds
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:04:30 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:04:30 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 575ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 129 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B03A5BA 
+// n (cl): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cl)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// 'cx' command handler elapsed time: 13 seconds
+// Elapsed time: 14 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:07:09 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 55 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "KEY_CONST_NOV20.xdc", 5); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+// Elapsed time: 108 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 778, 181); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 778, 181, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 121, 359); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 771, 182); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 771, 182, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 65, 364); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 973, 182); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 973, 182, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 26, 415); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 18 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (aT, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 301, 112); // cl (w, cl)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aL, cl)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+// Elapsed time: 25 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 90, 474); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectCodeEditor("segment_driver.vhd", 671, 387); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 98, 194); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 98, 194, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 217, 275); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("segment_driver.vhd", 115, 147); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 115, 147, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 790, 202); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 790, 202, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("Tod_design_nov20.vhd", 894, 200); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 892, 201, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectCodeEditor("segment_driver.vhd", 130, 153); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 111, 143); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 111, 143, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 96, 96); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 96, 96, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 159, 130); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 159, 130, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 190, 167); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("segment_driver.vhd", 85, 264); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 85, 264, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 101, 291); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 101, 291, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("segment_driver.vhd", 104, 397); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 265, 195); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("segment_driver.vhd", 409, 255); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 127, 214); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 127, 214, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 383, 248); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 246, 243); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 245, 260); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 697, 195); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 72, 122); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 155, 130); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 188, 227); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 152, 127); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 412, 127); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 347, 347); // cl (w, cl)
+// Elapsed time: 31 seconds
+selectCodeEditor("segment_driver.vhd", 73, 280); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 183, 318); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("segment_driver.vhd", 127, 217); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 127, 217, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 325, 211); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 272, 247); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 375, 261); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 398, 271); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 398, 271); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 131, 262); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 131, 262, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 947, 365); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 984, 313); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 984, 313, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1096, 368); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tod_design_nov20.vhd", 475, 401); // cl (w, cl)
+// [GUI Memory]: 133 MB (+106kb) [03:00:23]
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:17:43 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:17:43 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 123 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectCodeEditor("segment_driver.vhd", 735, 307); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 3, 279); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 530, 178); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 523, 195); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 523, 195, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 287, 481); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 287, 481, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:21:36 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:21:36 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 124 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 45 seconds
+selectCodeEditor("segment_driver.vhd", 127, 282); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 127, 282, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 95, 125); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 95, 125, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 372, 309); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 371, 309, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,716 MB. GUI used memory: 69 MB. Current time: 11/23/23, 10:25:45 PM PST
+// Elapsed time: 282 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectCodeEditor("segment_driver.vhd", 106, 332); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 107, 305); // cl (w, cl)
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 910, 160); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 910, 160, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 107, 297); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 107, 297, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 138, 336); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 138, 336, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 270, 341); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1120, 163); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 1120, 163, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 61, 352); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 61, 352, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 375, 334); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 379, 164); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 379, 162); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 379, 162, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 80, 371); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 80, 371, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 442, 164); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 442, 164, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectCodeEditor("segment_driver.vhd", 91, 149); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 91, 149, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 255, 315); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 255, 315, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("segment_driver.vhd", 101, 231); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 101, 231, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("segment_driver.vhd", 215, 185); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 215, 185, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 100, 174); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 100, 174, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 445, 461); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 445, 461, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("segment_driver.vhd", 576, 315); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 576, 315, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 452, 313); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 452, 313, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 71, 403); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 462, 296); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 427, 466); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 427, 466, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 582, 458); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 14, 328); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 427, 356); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 646, 425); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 429, 354); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 429, 354, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 433, 372); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 433, 372, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCD_Segment_decoder.vhd", 4); // k (j, cl)
+selectCodeEditor("BCD_Segment_decoder.vhd", 150, 132); // cl (w, cl)
+selectCodeEditor("BCD_Segment_decoder.vhd", 150, 132, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+// Elapsed time: 115 seconds
+selectCodeEditor("segment_driver.vhd", 470, 353); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 749, 332); // cl (w, cl)
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder_keypad.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 13, 210); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 385, 445); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tod_design_nov20.vhd", 637, 417); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 322, 363); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 125, 369); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 125, 369, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("Tod_design_nov20.vhd", 316, 286); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 431, 164); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 431, 164, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 45, 367); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 45, 367, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Tod_design_nov20.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 336, 346); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 609, 396); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cx' command handler elapsed time: 5 seconds
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:37:27 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:37:27 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Implementation Failed: addNotify
+// Elapsed time: 211 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cl)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net uut2/Q[0] has multiple drivers: uut2/segO_reg[0]/Q, and topseg_reg[0]/Q.. ]", 10); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net uut2/Q[0] has multiple drivers: uut2/segO_reg[0]/Q, and topseg_reg[0]/Q.. , [DRC MDRV-1] Multiple Driver Nets: Net uut2/Q[4] has multiple drivers: uut2/segO_reg[4]/Q, and topseg_reg[4]/Q.. ]", 14, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net uut2/Q[0] has multiple drivers: uut2/segO_reg[0]/Q, and topseg_reg[0]/Q.. , [DRC MDRV-1] Multiple Driver Nets: Net uut2/Q[4] has multiple drivers: uut2/segO_reg[4]/Q, and topseg_reg[4]/Q.. ]", 14, false, false, false, false, false, true); // ah (O, cl) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("Tod_design_nov20.vhd", 106, 455); // cl (w, cl)
+selectCodeEditor("Tod_design_nov20.vhd", 474, 341); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (aH, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3, false, true); // k (j, cl) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (aH, cl)
+selectCodeEditor("segment_driver.vhd", 88, 148); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 88, 148, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 143 seconds
+selectCodeEditor("segment_driver.vhd", 38, 350); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 186, 308); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 251, 316); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 139, 112); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 246, 91); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 108, 435); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 122, 421); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 243, 433); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 216, 111); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("segment_driver.vhd", 464, 379); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 65, 230); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 344, 226); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 322, 316); // cl (w, cl)
+// Elapsed time: 55 seconds
+selectCodeEditor("segment_driver.vhd", 95, 294); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 95, 294, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "segment_driver.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 487, 347); // cl (w, cl)
+typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("segment_driver.vhd", 374, 402); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 210, 366); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// PAPropertyPanels.initPanels (KEY_CONST_NOV20.xdc) elapsed time: 0.2s
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:46:48 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:46:48 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Implementation Failed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cl)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net uut2/whole_4_digit_display[0] has multiple drivers: uut2/whole_4_digit_display_reg[0]__0/Q, and uut2/whole_4_digit_display_reg[0]/Q.. ]", 11); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net uut2/whole_4_digit_display[0] has multiple drivers: uut2/whole_4_digit_display_reg[0]__0/Q, and uut2/whole_4_digit_display_reg[0]/Q.. , [DRC MDRV-1] Multiple Driver Nets: Net uut2/whole_4_digit_display[12] has multiple drivers: uut2/whole_4_digit_display_reg[12]/Q, and uut2/whole_4_digit_display_reg[12]__0/Q.. ]", 14, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net uut2/whole_4_digit_display[0] has multiple drivers: uut2/whole_4_digit_display_reg[0]__0/Q, and uut2/whole_4_digit_display_reg[0]/Q.. , [DRC MDRV-1] Multiple Driver Nets: Net uut2/whole_4_digit_display[12] has multiple drivers: uut2/whole_4_digit_display_reg[12]/Q, and uut2/whole_4_digit_display_reg[12]__0/Q.. ]", 14, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tod_design_nov20.vhd", 0); // k (j, cl)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_driver.vhd", 3); // k (j, cl)
+selectCodeEditor("segment_driver.vhd", 117, 349); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 117, 349, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 105, 425); // cl (w, cl)
+// Elapsed time: 36 seconds
+selectCodeEditor("segment_driver.vhd", 229, 259); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 270, 162); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 116, 188); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 116, 188, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("segment_driver.vhd", 116, 191); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 44, 348); // cl (w, cl)
+selectCodeEditor("segment_driver.vhd", 151, 344); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:49:47 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:49:47 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // by (cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("segment_driver.vhd", 82, 335); // cl (w, cl)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cl)
+// by (cl):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+selectCodeEditor("segment_driver.vhd", 272, 281); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // by (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 23 22:50:21 2023] Launched synth_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/runme.log [Thu Nov 23 22:50:21 2023] Launched impl_1... Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 126 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // by (cl)

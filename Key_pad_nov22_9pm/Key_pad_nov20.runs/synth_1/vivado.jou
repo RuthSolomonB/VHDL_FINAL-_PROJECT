@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 23 22:50:25 2023
+# Process ID: 13784
+# Current directory: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1
+# Command line: vivado.exe -log Tod_design_nov20.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Tod_design_nov20.tcl
+# Log file: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/Tod_design_nov20.vds
+# Journal file: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Tod_design_nov20.tcl -notrace

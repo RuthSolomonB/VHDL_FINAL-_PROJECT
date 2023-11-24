@@ -1,0 +1,812 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 21 15:23:42 2023
+# Process ID: 14992
+# Current directory: F:/year3/Vivadolabs/Key_pad_nov20
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8312 F:\year3\Vivadolabs\Key_pad_nov20\Key_pad_nov20.xpr
+# Log file: F:/year3/Vivadolabs/Key_pad_nov20/vivado.log
+# Journal file: F:/year3/Vivadolabs/Key_pad_nov20\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 696.543 ; gain = 112.309update_compile_order -fileset sources_1
+uupdate_compile_order -fileset sources_1update_compile_order -fileset sources_1
+uupdate_compile_order -fileset sources_1rWARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+dolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 16:54:32 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 16:55:44 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 17:01:12 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 17:02:11 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 17:04:00 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 17:04:51 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 17:16:10 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 17:16:58 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 17:25:22 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 17:26:34 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 17:28:43 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 17:30:58 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1648.461 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1648.461 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1648.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 1772.777 ; gain = 870.305
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 18:29:19 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1809.777 ; gain = 14.559
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A5BA
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 18:35:27 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 18:36:19 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+close_design
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 19:19:19 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 19:22:48 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 19:23:44 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 19:31:48 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 19:32:56 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Tod_design_nov20
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3181.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Tod_design_nov20' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:16]
+INFO: [Synth 8-3491] module 'decoder_keypad' declared at 'F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:16' bound to instance 'C0' of component 'decoder_keypad' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'decoder_keypad' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'decoder_keypad' (1#1) [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:25]
+INFO: [Synth 8-3491] module 'segment_driver' declared at 'F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:7' bound to instance 'uut2' of component 'segment_driver' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'segment_driver' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:15]
+INFO: [Synth 8-3491] module 'BCD_Segment_decoder' declared at 'F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/BCD_Segment_decoder.vhd:7' bound to instance 'BDS1' of component 'BCD_Segment_decoder' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'BCD_Segment_decoder' [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/BCD_Segment_decoder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'BCD_Segment_decoder' (2#1) [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/BCD_Segment_decoder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'segment_driver' (3#1) [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Tod_design_nov20' (4#1) [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3181.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3181.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3181.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]
+WARNING: [Vivado 12-584] No ports matched 'topsegA[0]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[0]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[1]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[1]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[2]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[2]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[3]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[3]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[4]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[4]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[5]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[5]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[6]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'topsegA[6]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[0]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[0]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[1]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[1]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[2]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[2]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[3]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anodes[3]'. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3181.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3181.953 ; gain = 0.000
+14 Infos, 22 Warnings, 22 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3181.953 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 19:55:43 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 19:58:02 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 19:59:16 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 20:01:34 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 20:02:24 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 20:06:14 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3986.016 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A5BA
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+close_design
+close [ open F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/bclk.vhd w ]
+add_files F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/bclk.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Tue Nov 21 20:47:42 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Tue Nov 21 20:48:53 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 20:50:10 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3997.320 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A5BA
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 20:54:32 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 20:54:32 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 20:58:19 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 20:58:19 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 21:42:12 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 21:42:12 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 21:43:05 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 21:43:05 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 21:43:58 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 21:43:58 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 21:47:25 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 21:47:25 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.106 . Memory (MB): peak = 3997.320 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 3997.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3997.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 22:34:28 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 22:34:28 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 3997.320 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 3997.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3997.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 22:39:16 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 22:39:16 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 22:54:09 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 22:54:09 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+close_hw
+close [ open F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/pwm.vhd w ]
+add_files F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/sources_1/new/pwm.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 22:58:46 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 22:58:46 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 22:59:36 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 22:59:36 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 23:06:30 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:06:30 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3997.320 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A5BA
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 23:11:49 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:11:49 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 23:21:16 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:21:16 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 23:30:17 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:30:17 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 23:32:04 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:32:04 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Nov 21 23:38:11 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:38:11 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]
+Finished Parsing XDC File [F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3997.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+report_drc -name drc_1 -ruledecks {default}
+Command: report_drc -name drc_1 -ruledecks default
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc completed successfully
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Nov 21 23:52:15 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:52:15 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Nov 21 23:55:48 2023] Launched synth_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/synth_1/runme.log
+[Tue Nov 21 23:55:48 2023] Launched impl_1...
+Run output will be captured here: F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 3997.320 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 3997.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3997.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+close_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3997.320 ; gain = 0.000
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {F:/year3/Vivadolabs/Key_pad_nov20/Key_pad_nov20.runs/impl_1/Tod_design_nov20.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 22 00:07:29 2023...

@@ -1,0 +1,381 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 23 22:50:25 2023
+# Process ID: 13784
+# Current directory: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1
+# Command line: vivado.exe -log Tod_design_nov20.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Tod_design_nov20.tcl
+# Log file: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/Tod_design_nov20.vds
+# Journal file: F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Tod_design_nov20.tcl -notrace
+Command: synth_design -top Tod_design_nov20 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13412 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 728.492 ; gain = 176.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Tod_design_nov20' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:18]
+INFO: [Synth 8-3491] module 'decoder_keypad' declared at 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:5' bound to instance 'C0' of component 'decoder_keypad' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'decoder_keypad' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:16]
+INFO: [Synth 8-3491] module 'bclk' declared at 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/bclk.vhd:5' bound to instance 'C' of component 'bclk' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'bclk' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/bclk.vhd:13]
+WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/bclk.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'bclk' (1#1) [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/bclk.vhd:13]
+INFO: [Synth 8-3491] module 'pwm' declared at 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/pwm.vhd:5' bound to instance 'P' of component 'pwm' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'pwm' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/pwm.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'pwm' (2#1) [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/pwm.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'decoder_keypad' (3#1) [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/decoder_keypad.vhd:16]
+INFO: [Synth 8-3491] module 'segment_driver' declared at 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:7' bound to instance 'uut2' of component 'segment_driver' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'segment_driver' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:17]
+INFO: [Synth 8-3491] module 'bclk' declared at 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/bclk.vhd:5' bound to instance 'C' of component 'bclk' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:44]
+INFO: [Synth 8-3491] module 'BCD_Segment_decoder' declared at 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/BCD_Segment_decoder.vhd:7' bound to instance 'BDS1' of component 'BCD_Segment_decoder' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'BCD_Segment_decoder' [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/BCD_Segment_decoder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'BCD_Segment_decoder' (4#1) [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/BCD_Segment_decoder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'segment_driver' (5#1) [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/segment_driver.vhd:17]
+WARNING: [Synth 8-3848] Net LED_correct in module/entity Tod_design_nov20 does not have driver. [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Tod_design_nov20' (6#1) [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/sources_1/new/Tod_design_nov20.vhd:18]
+WARNING: [Synth 8-3331] design segment_driver has unconnected port switch_for_display
+WARNING: [Synth 8-3331] design Tod_design_nov20 has unconnected port LED_correct
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 793.848 ; gain = 241.930
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 793.848 ; gain = 241.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 793.848 ; gain = 241.930
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]
+Finished Parsing XDC File [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.srcs/constrs_1/new/KEY_CONST_NOV20.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tod_design_nov20_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tod_design_nov20_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 905.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 905.605 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 905.605 ; gain = 353.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 905.605 ; gain = 353.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 905.605 ; gain = 353.688
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'decoder_keypad'
+INFO: [Synth 8-5546] ROM "new_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'segpos_reg' in module 'segment_driver'
+INFO: [Synth 8-5544] ROM "anodes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               00
+                 iSTATE0 |                             0010 |                               01
+                 iSTATE1 |                             0100 |                               10
+                 iSTATE2 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'decoder_keypad'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                 iSTATE1 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'segpos_reg' using encoding 'sequential' in module 'segment_driver'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 905.605 ; gain = 353.688
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	  17 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  17 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	  17 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Tod_design_nov20 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module bclk 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module pwm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module decoder_keypad 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  17 Input      4 Bit        Muxes := 1     
+	  17 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module segment_driver 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "C0/new_pos" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design Tod_design_nov20 has unconnected port LED_correct
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut2/whole_4_digit_display_reg[31] )
+INFO: [Synth 8-3886] merging instance 'uut2/whole_4_digit_display_reg[23]' (FD) to 'uut2/whole_4_digit_display_reg[31]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut2/whole_4_digit_display_reg[31] )
+INFO: [Synth 8-3886] merging instance 'uut2/whole_4_digit_display_reg[15]' (FD) to 'uut2/whole_4_digit_display_reg[31]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut2/whole_4_digit_display_reg[31] )
+INFO: [Synth 8-3886] merging instance 'uut2/whole_4_digit_display_reg[7]' (FD) to 'uut2/whole_4_digit_display_reg[31]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut2/whole_4_digit_display_reg[31] )
+INFO: [Synth 8-3886] merging instance 'C0/state_input_reg[1]' (FDE) to 'C0/new_pos_reg[0]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 905.605 ; gain = 353.688
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 905.605 ; gain = 353.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 909.027 ; gain = 357.109
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'C0/state_input_reg[0]' (FDE) to 'C0/new_pos_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut2/segO_reg[7] )
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 909.027 ; gain = 357.109
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    44|
+|3     |LUT1   |     7|
+|4     |LUT2   |    91|
+|5     |LUT3   |     3|
+|6     |LUT4   |    12|
+|7     |LUT5   |     2|
+|8     |LUT6   |    22|
+|9     |FDRE   |   190|
+|10    |IBUF   |     6|
+|11    |OBUF   |    16|
+|12    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+---------------+------+
+|      |Instance |Module         |Cells |
++------+---------+---------------+------+
+|1     |top      |               |   396|
+|2     |  C0     |decoder_keypad |   263|
+|3     |    C    |bclk_0         |    50|
+|4     |    P    |pwm            |    99|
+|5     |  uut2   |segment_driver |   108|
+|6     |    C    |bclk           |    50|
++------+---------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 914.648 ; gain = 250.973
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 914.648 ; gain = 362.730
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 933.234 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 933.234 ; gain = 631.527
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 933.234 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/year3/Vivadolabs/Key_pad_nov22_9pm/Key_pad_nov20.runs/synth_1/Tod_design_nov20.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Tod_design_nov20_utilization_synth.rpt -pb Tod_design_nov20_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 23 22:51:03 2023...
